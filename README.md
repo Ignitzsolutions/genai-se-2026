@@ -48,3 +48,18 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+
+## Sravani Task - Log Generator
+
+This script generates logs and saves them into a file.
+
+### Features:
+- Logs start and end of script
+- Writes timestamp
+- Handles errors
+
+### How to run:
+python automation/sravani_task.py
+
+
