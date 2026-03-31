@@ -48,3 +48,14 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+
+## Charan Task
+
+### Description
+This script reads a text file and counts the number of words.
+
+### How to run
+
+```bash
+#   python automation/charan_task.py
