@@ -48,3 +48,11 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+## Omprakash Task
+
+- Prints current date and time
+- Logs execution details into automation.log
+
+### How to run:
+python automation/omprakash_task.py
