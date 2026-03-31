@@ -48,3 +48,13 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+
+## Chaithanya Task
+- This script fetches data from a public API (JSONPlaceholder)
+- It logs start of execution, success and failure to app.log
+- It also prints current date and time every run
+
+## How to run:
+python automation/chaithanya_task.py
+
