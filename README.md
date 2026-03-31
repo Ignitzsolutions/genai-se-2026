@@ -48,3 +48,13 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+
+## srujana Task
+
+- This script prints current date and time
+- Logs output into automation.log
+
+### Run command
+
+python automation/srujana_task.py
