@@ -48,3 +48,15 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+## Mounish Task
+
+- What your script does
+  - Logs run start, current date/time, success or failure, and writes logs to `Mounish.log`.
+  - Uses `logging` and `try/except` for error handling.
+
+- How to run it
+  1. Open terminal in `genai-se-2026`.
+  2. Run `python Mounish.py`.
+  3. Check `Mounish.log` for log history.
+  4. Inspect console output for date/time and status messages.
