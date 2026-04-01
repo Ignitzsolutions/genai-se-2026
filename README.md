@@ -48,3 +48,20 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+## Automation Task - Word Count Script
+
+- What it does: reads `automation/sample.txt`, counts words, prints result to console
+- Logging: `automation/app.log` gets start/success/failure messages
+- Error handling: try/except with exception logging and re-raise
+- How to run:
+
+```bash
+python automation/word_count_task.py
+```
+
+With custom file or log path:
+
+```bash
+python automation/word_count_task.py --file automation/sample.txt --log automation/app.log
+```
