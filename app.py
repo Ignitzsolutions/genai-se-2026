@@ -1,14 +1,13 @@
 
-@app.route('/login', methods=['POST'])
-
+# Add login route
+@app.route('/login', methods=['GET', 'POST'])
 def login():
-    data = request.get_json()
-    username = data.get('username')
-    password = data.get('password')
-    if not username or not password:
-        return jsonify({'error': 'Missing credentials'}), 400
-    # TODO: verify credentials against your user store
-    if username == 'admin' and password == 'secret':
-        token = create_jwt({'user': username})
-        return jsonify({'token': token})
-    return jsonify({'error': 'Invalid credentials'}), 401
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+        user = User.query.filter_by(username=username).first()
+        if user and check_password_hash(user.password, password):
+            login_user(user)
+            return redirect(url_for('dashboard'))
+        flash('Invalid credentials')
+    return render_template('login.html')
