@@ -48,3 +48,18 @@ git push origin feature-yourname
 * Go to your fork on GitHub
 * Click **Compare & pull request**
 * Submit the PR 🚀
+
+## Saranya's Task
+
+- What it does: prints the current date and time on each run and logs execution details
+- How to run:
+
+```bash
+python automation/saranya_task.py
+```
+
+With a custom log path:
+
+```bash
+python automation/saranya_task.py --log automation/saranya_task.log
+```
