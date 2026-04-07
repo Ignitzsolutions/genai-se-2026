@@ -60,3 +60,12 @@ git push origin feature-yourname
   2. Run `python Mounish.py`.
   3. Check `Mounish.log` for log history.
   4. Inspect console output for date/time and status messages.
+
+
+## Hemanth Task
+- Fetches user data from a public API (JSONPlaceholder)
+- Logs execution start, success, and errors to `app.log`
+
+### How to run
+pip install requests
+python automation/hemanth_task.py --id 3
